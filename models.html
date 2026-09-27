@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Models | Velocity Motors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+    <a href="index.html" class="logo">VELOCITY</a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="models.html">Models</a></li>
+        <li><a href="innovation.html">Innovation</a></li>
+        <li><a href="services.html">Services</a></li>
+    </ul>
+    <div class="nav-actions" style="display: flex; align-items: center; gap: 20px;">
+        <a href="profile.html" style="font-weight: 500; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='#e50914'" onmouseout="this.style.color='inherit'">Profile / Login</a>
+        <a href="cart.html" style="font-weight: 500; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='#e50914'" onmouseout="this.style.color='inherit'">Cart (1)</a>
+        <a href="index.html#contact" class="btn-nav">Book Test Drive</a>
+    </div>
+</nav>
+
+    <!-- 100vh Hero Image -->
+    <header class="hero" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80') center/cover;">
+        <div class="hero-content">
+            <h1>The Velocity Lineup</h1>
+            <p>Masterpieces of engineering and design.</p>
+        </div>
+    </header>
+
+    <section class="models">
+        <h2>Choose Your Performance</h2>
+        <div class="model-grid">
+            <!-- Model 1 -->
+            <div class="model-card">
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Velocity S-Type">
+                <h3>Velocity S-Type</h3>
+                <p>0-60 in 2.9s | Fully Electric</p>
+                <a href="configure.html" class="btn-secondary" style="display:inline-block; text-align:center; width:calc(100% - 40px); margin:15px 20px 20px;">Configure</a>
+            </div>
+            
+            <!-- Model 2 -->
+            <div class="model-card">
+                <img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Velocity X-Line">
+                <h3>Velocity X-Line</h3>
+                <p>0-60 in 3.8s | Luxury SUV</p>
+                <a href="configure.html" class="btn-secondary" style="display:inline-block; text-align:center; width:calc(100% - 40px); margin:15px 20px 20px;">Configure</a>
+            </div>
+            
+            <!-- Model 3 (Fixed Bug: Stats structure matches others and unique high-quality image) -->
+            <div class="model-card">
+                <img src="https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Velocity GT">
+                <h3>Velocity GT</h3>
+                <p>0-60 in 2.1s | Track Edition</p>
+                <a href="configure.html" class="btn-secondary" style="display:inline-block; text-align:center; width:calc(100% - 40px); margin:15px 20px 20px;">Configure</a>
+            </div>
+            
+            <!-- Model 4 (Added new model) -->
+            <div class="model-card">
+                <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Velocity E-Terrain">
+                <h3>Velocity E-Terrain</h3>
+                <p>AWD | Off-Road Dominance</p>
+                <a href="configure.html" class="btn-secondary" style="display:inline-block; text-align:center; width:calc(100% - 40px); margin:15px 20px 20px;">Configure</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2026 Velocity Motors. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

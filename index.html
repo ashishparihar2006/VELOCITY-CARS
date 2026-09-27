@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Motors - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+    <a href="index.html" class="logo">VELOCITY</a>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="models.html">Models</a></li>
+        <li><a href="innovation.html">Innovation</a></li>
+        <li><a href="services.html">Services</a></li>
+    </ul>
+    <div class="nav-actions" style="display: flex; align-items: center; gap: 20px;">
+        <a href="profile.html" style="font-weight: 500; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='#e50914'" onmouseout="this.style.color='inherit'">Profile / Login</a>
+        <a href="cart.html" style="font-weight: 500; font-size: 0.9rem; transition: color 0.3s;" onmouseover="this.style.color='#e50914'" onmouseout="this.style.color='inherit'">Cart (1)</a>
+        <a href="index.html#contact" class="btn-nav">Book Test Drive</a>
+    </div>
+</nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>The Future of Driving</h1>
+            <p>Experience uncompromised power and elegance.</p>
+            <a href="models.html" class="btn-primary">Explore Models</a>
+        </div>
+    </header>
+
+    <section id="models" class="models">
+        <h2>Featured Models</h2>
+        <div class="model-grid">
+            <div class="model-card">
+                <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Velocity S-Type">
+                <h3>Velocity S-Type</h3>
+                <p>0-60 in 2.9s | Fully Electric</p>
+                <button class="btn-secondary" onclick="window.location.href='models.html'">View Details</button>
+            </div>
+            <div class="model-card">
+                <img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Velocity X-Line">
+                <h3>Velocity X-Line</h3>
+                <p>Unmatched luxury and space</p>
+                <button class="btn-secondary" onclick="window.location.href='models.html'">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Velocity Motors. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
